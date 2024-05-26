@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #9027c0;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+.summary {
+    background: #3b0255;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-left: 5px solid #dfbaf0;
+    margin-bottom: 20px; /* Vizuální oddělení */
+}
+
+.summary h2 {
+    color: #dfbaf0;
+    border-bottom: 2px solid #dfbaf0;
+    padding-bottom: 5px;
+}
+
+.summary__head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #3e3e6d;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.summary__photo {
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 2px solid #dfbaf0;
+}
+
+.summary__head-property, .summary__head-room {
+    flex: 1;
+}
+
+.summary__name {
+    font-size: 1.2em;
+    margin: 0;
+    color: #dcd6f7;
+}
+
+.summary__address, .summary__city, .summary__rating, .summary__room-type, .summary__room-price {
+    color: #b0a8b9;
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+.summary__room-price, .summary__room-total {
+    color: #ad3f87;
+    font-weight: bold;
+}
+
+.summary__detail, .summary__services, .summary__cancel {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #3e3e6d;
+    border: 1px solid #4b4b8f; /* Vizuální oddělení */
+}
+
+.summary__detail h3, .summary__services h3, .summary__cancel h3 {
+    border-bottom: 2px solid #dfbaf0;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #dcd6f7;
+}
+
+.summary__number, .summary__dates, .summary__guests, .summary__check-in, .summary__check-out, .summary__service {
+    margin: 5px 0;
+    color: #b0a8b9;
+}
+
+.summary__cancel-text p {
+    margin: 5px 0;
+    color: #b0a8b9;
+}
+
+.summary__rating {
+    background-color: #5a5a8f;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    color: #dcd6f7;
+    font-weight: bold;
+}
